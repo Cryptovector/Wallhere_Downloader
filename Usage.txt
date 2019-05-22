@@ -1,0 +1,7 @@
+python Wallhere.py -l -r -i -d D:\Desktop\NEWMEDIA\Tools\Python\Developing\Python_Wallhere\Wallpaper -u https://wallhere.com/de/wallpaper/1319039 -us **** -pa ****
+python Wallhere.py -l -r -k -d D:\Desktop\NEWMEDIA\Tools\Python\Developing\Python_Wallhere\Wallpaper -u https://wallhere.com/de/wallpapers?q=Evangelion -us **** -pa ****
+
+-r Doesn't save Redundant images (Hash Compare)
+-l Login (Not requiert only for better Resolution) --> -us Username -pa Password
+
+Last Tested 16.5.2019 (Day, Month, Year)
