@@ -1,6 +1,9 @@
 import PIL
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+import os
+
+if os.name == 'nt':
+	pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 def Solve_captcha(Img):
 	width, height = Img.size 
